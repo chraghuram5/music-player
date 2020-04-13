@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  background-color: white;
+  min-width: 400px;
+}
+
+/*navigation bar*/
+nav {
+  height: 5rem;
+  background-color: #0C1027;
+  margin: 0px;
+  color: white;
+}
+
+.align {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.size {
+  color: lightblue;
+  font-size: 4rem;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.app-name {
+  font-size: 1.2rem;
+}
+
+.search-box {
+  background: #12193E;
+  right: 0px;
+  border-radius: 1rem;
+}
+
+.search-box i {
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.search-box input {
+  background: #12193E;
+  border: 0px;
+  padding: 0.2rem;
+}
+
+.left-align {
+  float: left;
+  height: 100%;
+  margin-left: 3rem;
+}
+
+.right-align {
+  float: right;
+  height: 100%;
+  margin-right: 3rem;
+}
+
+.middle-align {
+  margin: 1.5rem 1rem;
+}
+
+.center-align {
+  margin: 1.5rem 1.5rem 0rem;
+}
+
+.profile img {
+  background: white;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .center-align {
+    display: none;
+  }
+
+  .app-name {
+    display: none;
+  }
+
+  .profile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .right-align {
+    margin-right: 1rem;
+  }
+
+  .left-align {
+    margin-left: 1rem;
+  }
+
+  .logo {
+    display: none;
+  }
+}
