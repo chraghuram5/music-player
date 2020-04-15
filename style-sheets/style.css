@@ -1,102 +1,182 @@
 body {
-  margin: 0px;
-  min-width: 400px;
-  overflow: auto;
-  color: white;
-  background-color: #0C1027;
+	margin: 0px;
+	min-width: 400px;
+	overflow: auto;
+	color: white;
+	background-color: #0C1027;
+	position: relative;
+	z-index: -1;
 }
 
-.main-alignment{
+/*common*/
+.app-name {
+	font-size: 1.2rem;
+}
+
+.name-font {
+	font-family: Arial;
+	font-size: 0.8rem;
+	font-weight: normal;
+}
+
+.song-name-font{
+	font-family: Arial;
+	font-size: 0.7rem;
+	font-weight: normal;
+}
+
+.date-font {
+	font-family: Lucida Sans Unicode;
+	color: grey;
+	font-size: 0.8rem;
+}
+
+.song-date-font{
+	font-family: Lucida Sans Unicode;
+	color: grey;
+	font-size: 0.5rem;
+}
+
+.time-font {
+	font-family: Lucida Sans Unicode;
+	color: grey;
+	font-size: 0.6rem;
+}
+
+.main-alignment {
 	display: inline-block;
 	vertical-align: top;
 }
 
+.align {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.align-vertical {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.left-margin-half{
+	margin-left: 0.5rem;
+}
+
+.left-margin-full{
+	margin-left: 1rem;	
+}
+
+.right-margin-half{
+	margin-right: 0.5rem;
+}
+
+.right-margin-full{
+	margin-right: 1rem;
+}
+
+.margin-half{
+	margin: 0.5rem;
+}
+
+.margin-full{
+	margin: 1rem;
+}
+
+.section {
+	width: 100%;
+	margin: 2rem 0rem;
+}
+
+.inner-section{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow: auto;
+}
+
+.inner-section::-webkit-scrollbar {
+	display: none;
+}
+
+
+.section-title {
+	font-family: Arial;
+	font-weight: bolder;
+	margin: 0.5rem;
+}
+
+.relative {
+	position: relative;
+}
+
 /*navigation bar*/
 nav {
-  height: 5rem;
-  background-color: #0C1027;
-  margin: 0px;
-  color: white;
+	height: 5rem;
+	background-color: #0C1027;
+	margin: 0px;
+	color: white;
 }
 
-.align {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.size {
-  color: lightblue;
-  font-size: 4rem;
-}
-
-.logo {
-  margin-left: 1rem;
-}
-
-.app-name {
-  font-size: 1.2rem;
+.logo-size {
+	color: lightblue;
+	font-size: 4rem;
 }
 
 .search-box {
-  background: #12193E;
-  right: 0px;
-  border-radius: 1rem;
+	background: #12193E;
+	right: 0px;
+	border-radius: 1rem;
 }
 
 .search-box i {
-  padding: 0.5rem;
-  font-size: 0.7rem;
+	padding: 0.5rem;
+	font-size: 0.7rem;
 }
 
 .search-box input {
-  background: #12193E;
-  border: 0px;
-  padding: 0.2rem;
+	background: #12193E;
+	border: 0px;
+	padding: 0.2rem;
 }
 
 .left-align {
-  float: left;
-  height: 100%;
-  margin-left: 3rem;
+	float: left;
+	margin-left: 3rem;
 }
 
 .right-align {
-  float: right;
-  height: 100%;
-  margin-right: 3rem;
+	float: right;
+	margin-right: 3rem;
 }
 
 .middle-align {
-  margin: 1.5rem 1rem;
+	margin: 1.5rem 1rem;
 }
 
 .center-align {
-  margin: 1.5rem 1.5rem 0rem;
+	margin: 1.5rem 1.5rem 0rem;
 }
 
 .profile img {
-  background: white;
-  border-radius: 50%;
-  margin-left: 0.5rem;
+	background: white;
+	border-radius: 50%;
 }
 
 @media only screen and (max-width: 900px) {
-  .center-align {
-    display: none;
-  }
-
-  .app-name {
-    display: none;
-  }
-
-  .profile {
-    display: none;
-  }
+	.center-align {
+		display: none;
+	}
+	.app-name {
+		display: none;
+	}
+	.profile {
+		display: none;
+	}
 }
 
 /*main-content*/
-
-.main-content{
+.main-content {
 	width: 90%;
 	background-color: #0C1027;
 	margin: auto;
@@ -105,224 +185,246 @@ nav {
 /* LeftContent*/
 
 /*favourites*/
-.main-left{
+.main-left {
 	width: 70%;
 	background-color: #0C1027;
 }
 
-.section{
-	width: 100%;	
-}
-
-.section-title{
-	margin: 0.5rem;
-}
-
-.back-image{
+.back-image {
 	width: 500px;
 	height: 200px;
 }
 
-.center-image{
+.center-image {
 	width: 500px;
 	height: 300px;
 }
 
-.favourites{
+.favourites {
 	width: 100%;
 	padding: 1rem 0rem;
 	text-align: center;
 }
 
-.relative{
-	position: relative;
-}
-
-.center{
+.center {
 	width: 75%;
 	z-index: 1;
 }
 
-
-.left{
+.left {
 	width: 30%;
 	z-index: 0;
 	margin-right: -20%;
 }
 
-.right{
+.right {
 	width: 30%;
 	z-index: 0;
 	margin-left: -20%;
 }
 
-
 /*Latest Releases*/
 
-.latest-release{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.release-card{
+.release-card {
+	min-width: 45%;
 	width: 45%;
 	margin: 0.5rem;
+	display: flex;
+	flex-direction: row;
 }
 
-table{
-	width: 200%;
+.card-details {
+	width: 70%;
 }
 
-table tr{
+.release-card table {
+	width: 100%;
+}
+
+.release-card table tr {
 	height: 25%;
 }
 
-.alignment{
-	display: inline-block;
-	vertical-align: top;
+.card-image {
+	width: 30%;
+	max-width: 100%;
 }
 
+.card-image img{
+	height: 100px;
+	width: 100px;
+}
+
+.table-left{
+	text-align: left;
+}
+
+.table-right{
+	text-align: right;
+}
 
 /*Popular artisits*/
 
-.popular-artists{
-	margin: 0.5rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	overflow: auto;	
-}
-
-.popular-artists::-webkit-scrollbar {
-    display: none;
-}
-
-.artist img{
+.artist img {
 	border-radius: 50%;
+	height: 125px;
+	width: 125px;
 }
 
-.artist{
+.artist {
 	margin: 0.5rem;
 	text-align: center;
 }
 
-/*mood*/
-.stations-section{
+/*stations*/
+.stations-section {
 	background: #12193E;
-	margin: 0.5rem;
 }
 
-.picture{
+.center-flex{
 	margin: 1rem;
+	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 }
 
-.station-list{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-center;
-	justify-content: space-between;
-	overflow: auto;
+.picture img{
+	height: 125px;
+	width: 125px;
 }
 
-.station-list::-webkit-scrollbar {
-    display: none;
+.station-list {
+	align-items: center;
 }
 
-.station img{
+
+.station img {
 	border-radius: 50%;
+	height: 100px;
+	width: 100px;
 }
 
-.station{
+.station {
 	margin: 0.5rem;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
 	position: relative;
 	text-align: center;
 }
 
-.center-text{
+.center-text {
 	position: absolute;
- 	top: 50%;
- 	left: 50%;
- 	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 /*mood list*/
-
-.mood-list{
-	margin: 0.5rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	overflow: auto;
-}
-
 .mood{
 	width: 30%;
 	position: relative;
 	text-align: center;
 }
 
-.mood img{
+.mood img {
 	max-width: 100%;
-}
-
-/*Latest-english*/
-
-.songs-list{
-	margin: 0.5rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	height: 200px;
+	width: 300px;
 }
 
 /*Right Content*/
-.main-right{
+.main-right {
 	width: 25%;
 }
 
-.queue-song{
-	margin: 0.5rem;
+.queue-song {
 	width: 90%;
-	display: flex;
-	flex-direction: row;
 }
 
-.queue{
+.middle-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.queue {
+	margin: 2rem 0rem;
 	display: flex;
 	flex-direction: column;
 }
 
-.song-image table td{
+.song-image table td {
 	padding: 0rem 0.3rem;
 }
 
-.song-name{
-	width: 10rem;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.song-image{
+	margin: 0rem 0.3rem;
 }
+
+.song-image img{
+	height: 50px;
+	width: 50px;
+}
+
+.song-name {
+	width: 10rem;
+}
+
+.dropbtn {
+  background-color: #0C1027;
+  color: green;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /*Responsive Design*/
 @media only screen and (max-width: 600px) {
-  .right-align {
-    margin-right: 1rem;
-  }
+	.right-align {
+		margin-right: 1rem;
+	}
+	.left-align {
+		margin-left: 1rem;
+	}
+	.logo {
+		display: none;
+	}
+}
 
-  .left-align {
-    margin-left: 1rem;
-  }
-
-  .logo {
-    display: none;
-  }
-  
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
