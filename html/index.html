@@ -2,52 +2,336 @@
 <html>
 
 <head>
-  <title>Music Player</title>
-  <link rel="stylesheet" href="../style-sheets/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<title>Music Player</title>
+<link rel="stylesheet" href="../style-sheets/style.css" />
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+	integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	crossorigin="anonymous">
 </head>
 
 <body>
-  <nav>
-    <div class="left-align align">
-      <div class="logo-title align">
-        <div class="logo align">
-          <i class="fab fa-soundcloud size"></i>
-        </div>
-        <div class="app-name align">
-          RR
-          <br />
-          Studio
-        </div>
-      </div>
-    </div>
-    <div class="center-align align">
-      <div class="align">
-        Favorites
-      </div>
-    </div>
-    <div class="right-align align">
-      <div class="search-box align middle-align">
-        <i class="fas fa-search"></i>
-        <input type="text" placeholder="Search" />
-        <i class="fas fa-microphone"></i>
-      </div>
-      <div class="bell-icon align middle-align">
-        <i class="fas fa-bell"></i>
-      </div>
-      <div class="profile align">
-        <img src="https://via.placeholder.com/70">
-      </div>
-    </div>
-  </nav>
-  <div class="main-content">
-    <main>
-    </main>
-    <aside>
-    </aside>
-  </div>
-  <footer>
-  </footer>
+	<!-- Navigation Bar -->
+	<nav>
+		<!-- Navigation Left -->
+		<div class="left-align">
+
+			<!-- Logo and Title -->
+			<div class="logo-title align">
+
+				<!-- Logo -->
+				<div class="logo align">
+					<i class="fab fa-soundcloud size"></i>
+				</div>
+
+				<!-- Title -->
+				<div class="app-name align">
+					RR <br /> Studio
+				</div>
+			</div>
+		</div>
+
+		<!-- Navigation Center -->
+		<div class="center-align align">
+			<div class="align">Favorites</div>
+		</div>
+
+		<!-- Navigation Right -->
+		<div class="right-align align">
+
+			<!-- Search Box -->
+			<div class="search-box align middle-align">
+				<i class="fas fa-search"></i> <input type="text"
+					placeholder="Search" /> <i class="fas fa-microphone"></i>
+			</div>
+
+			<!-- Notification-icon -->
+			<div class="bell-icon align middle-align">
+				<i class="fas fa-bell"></i>
+			</div>
+
+			<!-- Profile -->
+			<div class="profile align">
+				<img src="https://via.placeholder.com/70">
+			</div>
+		</div>
+	</nav>
+
+	<!-- Main-Content -->
+	<div class="main-content">
+
+		<!-- Left Content-->
+		<main class="main-alignment main-left">
+
+			<!-- Favourites -->
+			<div class="section">
+				<div class="favourites">
+					<img class="align relative back-image left"
+						src="https://i.imgur.com/4GfUZEj.jpg"> <img
+						class="align relative center-image center"
+						src="https://i.imgur.com/4GfUZEj.jpg"> <img
+						class="align relative back-image right"
+						src="https://i.imgur.com/4GfUZEj.jpg">
+				</div>
+			</div>
+
+			<!-- Latest Releases -->
+			<div class="section">
+				<div class="section-title">Latest Releases</div>
+				<div class="latest-release">
+					<div class="release-card">
+						<div class="alignment card-image">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+						</div>
+						<div class="alignment card-details">
+							<table>
+								<tr>
+									<td><i class="fas fa-ellipsis-h"></i></td>
+								</tr>
+								<tr>
+									<td style="text-align: left">Osium</td>
+									<td style="text-align: right">4:44</td>
+								</tr>
+								<tr>
+									<td style="text-align: left">AUG 11, 2017</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="release-card">
+						<div class="alignment card-image">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+						</div>
+						<div class="alignment card-details">
+							<table>
+								<tr>
+									<td colspan="2"><i class="fas fa-ellipsis-h"></i></td>
+								</tr>
+								<tr>
+									<td>Osium</td>
+									<td>4:44</td>
+								</tr>
+								<tr>
+									<td>AUG 11, 2017</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="release-card">
+						<div class="alignment card-image">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+						</div>
+						<div class="alignment card-details">
+							<table>
+								<tr>
+									<td colspan="2"><i class="fas fa-ellipsis-h"></i></td>
+								</tr>
+								<tr>
+									<td>Osium</td>
+									<td>4:44</td>
+								</tr>
+								<tr>
+									<td>AUG 11, 2017</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="release-card">
+						<div class="alignment card-image">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+						</div>
+						<div class="alignment card-details">
+							<table>
+								<tr>
+									<td colspan="2"><i class="fas fa-ellipsis-h"></i></td>
+								</tr>
+								<tr>
+									<td>Osium</td>
+									<td>4:44</td>
+								</tr>
+								<tr>
+									<td>AUG 11, 2017</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Popular Artists -->
+			<div class="section">
+				<div class="section-title">Popular Artists</div>
+				<div class="flex-section popular-artists">
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+							width="125px">
+						<div>Eminem</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="section">
+				<div class="stations-section">
+					<div class="station-list">
+						<div class="picture">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="125px"
+								width="125px">
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+						<div class="station">
+							<img src="https://i.imgur.com/4GfUZEj.jpg" height="100px"
+								width="100px">
+							<div class="center-text">WorkOut</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mood list -->
+			<div class="section">
+				<div class="mood-list">
+					<div class="mood">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="200px"
+							width="300px">
+						<div class="center-text">Party</div>
+					</div>
+					<div class="mood">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="200px"
+							width="300px">
+						<div class="center-text">Party</div>
+					</div>
+					<div class="mood">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="200px"
+							width="300px">
+						<div class="center-text">Party</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Latest English -->
+			<div class="section">
+				<div class="section-title">Latest English</div>
+				<div class="songs-list">
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+					<div class="song">
+						<img src="https://i.imgur.com/4GfUZEj.jpg" height="140px"
+							width="140px">
+						<div>Onism</div>
+						<div>AUG 11, 2017</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+		<!-- Right Content -->
+		<aside class="main-alignment main-right">
+			<div class="queue">
+				<div class="queue-song">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td>01</td>
+								<td><img src="https://i.imgur.com/4GfUZEj.jpg"
+									height="50px" width="50px"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name">
+						<div>
+							Mirage<br>else
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<footer> </footer>
 </body>
 
 </html>
