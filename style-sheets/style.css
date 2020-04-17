@@ -89,6 +89,11 @@ body {
 	margin: 2rem 0rem;
 }
 
+.song-section {
+	width: 100%;
+	margin: -0.5rem 0rem;
+}
+
 .inner-section {
 	width: 100%;
 	display: flex;
@@ -112,6 +117,12 @@ body {
 	font-family: Arial;
 	font-weight: bolder;
 	margin: 0.5rem;
+}
+
+.band-title {
+	font-family: Arial;
+	font-weight: bolder;
+	font-size: 1.5rem;
 }
 
 .relative {
@@ -203,8 +214,7 @@ nav {
 	width: 75%;
 	opacity: 1;
 	z-index: 1;
-	box-shadow:0px 11px 8px -10px #CCC,0px -11px 8px -10px
-		#0C1027;
+	box-shadow: 0px 11px 8px -10px #CCC, 0px -11px 8px -10px #0C1027;
 }
 
 .left {
@@ -332,7 +342,7 @@ nav {
 }
 
 .queue {
-	margin: 2rem 0rem;
+	margin: 1rem 0rem;
 	display: flex;
 	flex-direction: column;
 	display: flex;
@@ -502,6 +512,54 @@ nav {
 	display: none;
 }
 
+similar-card {
+	width: 100%;
+}
+
+.similar-card .card-details {
+	width: 60%;
+}
+
+.similar-song{
+	width: 100%;
+}
+
+/*current-song-details*/
+.current-song-image img {
+	height: 350px;
+	width: 350px;
+}
+
+.current-song {
+	width: 90%;
+	margin: auto;
+	background: #12193E;
+}
+
+.current-song-details {
+	width: 55%;
+}
+
+.play-button {
+	background-image: linear-gradient(to right, blue, #ad42f5);
+	border: none;
+}
+
+.button-follow {
+	width: 50%;
+	margin: 1rem 0rem;
+}
+
+.button-follow button {
+	width: 7rem;
+	height: 2rem;
+	color: white;
+}
+
+.fav-plus {
+	width: 10%;
+}
+
 /*responsive*/
 @media only screen and (max-width: 1100px) {
 	body {
@@ -530,6 +588,10 @@ nav {
 	}
 	.side-right {
 		width: 25%;
+	}
+	.current-song-image img {
+		height: 250px;
+		width: 250px;
 	}
 }
 
@@ -574,11 +636,28 @@ nav {
 	.release-card img {
 		height: 75px;
 	}
+	.current-song-details {
+		width: 100%;
+	}
 	.date-font {
 		display: none;
 	}
 	.mood img {
 		height: 100px;
 		width: 150px;
+	}
+	.current-song-image img {
+		height: 150px;
+		width: 100%;
+	}
+	.current-song {
+		flex-wrap: wrap;
+	}
+	.button-follow {
+		width: 95%;
+		margin: 1rem 0.5rem;
+	}
+	.fav-plus {
+		width: 20%;
 	}
 }
