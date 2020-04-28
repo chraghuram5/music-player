@@ -34,7 +34,8 @@ body {
 .date-font {
 	font-family: Lucida Sans Unicode;
 	color: grey;
-	font-size: 1rem;
+	font-size: 0.8rem;
+	margin-top: 0.3rem;
 }
 
 .song-date-font {
