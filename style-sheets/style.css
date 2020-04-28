@@ -20,13 +20,13 @@ body {
 
 .name-font {
 	font-family: Arial;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: normal;
 }
 
 .song-name-font {
 	font-family: Arial;
-	font-size: 0.7rem;
+	font-size: 1rem;
 	font-weight: normal;
 }
 
@@ -34,25 +34,25 @@ body {
 .date-font {
 	font-family: Lucida Sans Unicode;
 	color: grey;
-	font-size: 0.8rem;
+	font-size: 1rem;
 }
 
 .song-date-font {
 	font-family: Lucida Sans Unicode;
 	color: grey;
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 }
 
 .time-font {
 	font-family: Lucida Sans Unicode;
 	color: grey;
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 }
 
 .section-title {
 	font-family: Arial;
 	font-weight: bolder;
-	margin: 0.5rem;
+	margin: 1rem;
 }
 
 .profile img{
@@ -325,6 +325,7 @@ nav {
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
+	opacity: 0.5;
 }
 
 .picture img {
@@ -357,8 +358,12 @@ nav {
 .mood img {
 	height: 200px;
 	width: 300px;
+	opacity: 0.5;
 }
 
+.mood .name-font{
+	font-size: 1.5rem;
+}
 /*Latest English*/
 
 .song img{
@@ -397,8 +402,8 @@ nav {
 }
 
 .song-image img {
-	height: 50px;
-	width: 50px;
+	height: 75px;
+	width: 75px;
 }
 
 .song-name {
