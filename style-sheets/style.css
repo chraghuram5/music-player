@@ -55,6 +55,12 @@ body {
 	margin: 0.5rem;
 }
 
+.profile img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+
 /*alignments*/
 
 .main-alignment {
@@ -231,21 +237,12 @@ nav {
 	background-color: #0C1027;
 }
 
-.back-image {
-	width: 500px;
-	height: 200px;
-}
-
-.center-image {
-	width: 500px;
-	height: 300px;
-}
-
 .favourites {
 	width: 100%;
 	padding: 1rem 0rem;
 	text-align: center;
 }
+
 
 .center {
 	width: 75%;
@@ -320,11 +317,6 @@ nav {
 	justify-content: center;
 }
 
-.picture img {
-	height: 125px;
-	width: 125px;
-}
-
 .station-list {
 	align-items: center;
 }
@@ -333,6 +325,12 @@ nav {
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
+}
+
+.picture img {
+	height: 125px;
+	width: 125px;
+	border-radius: 0px;
 }
 
 .station {
@@ -361,6 +359,12 @@ nav {
 	width: 300px;
 }
 
+/*Latest English*/
+
+.song img{
+ 	height: 140px;
+ 	width: 140px;
+}
 /*Right Content*/
 .main-right {
 	width: 25%;
