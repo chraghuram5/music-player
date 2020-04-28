@@ -380,18 +380,11 @@ nav {
 	width: 90%;
 }
 
-.middle-flex {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-}
 
 .queue {
 	margin: 1rem 0rem;
 	display: flex;
 	flex-direction: column;
-	display: flex;
 }
 
 .song-image table td {
