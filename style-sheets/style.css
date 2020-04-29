@@ -284,6 +284,18 @@ nav {
 }
 
 /*stations*/
+
+.orange{
+	background-color: rgb(255, 102, 0);
+	width: 8rem;
+	height: 8rem;
+	box-shadow: 1.25rem 0px 0px -0.5rem orange,
+	 -1.25rem 0px 0px -0.5rem orange, 
+	 2rem 0px 0px -0.75rem rgb(238, 255, 0), 
+	 -2rem 0px 0px -0.75rem rgb(238, 255, 0);
+	margin: 1rem 2rem;
+}
+
 .stations-section {
 	background: #12193E;
 }
@@ -300,13 +312,6 @@ nav {
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
-	opacity: 0.5;
-}
-
-.picture img {
-	height: 125px;
-	width: 125px;
-	border-radius: 0px;
 }
 
 .station {
