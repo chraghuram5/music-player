@@ -232,7 +232,6 @@ nav {
 .center{
 	width: 100%;
 	z-index: 2;
-	box-shadow: inset 0em 3em 5px 0px white;
 }
 
 .center img{
