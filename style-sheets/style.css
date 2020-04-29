@@ -216,42 +216,55 @@ nav {
 
 /* LeftContent*/
 
-/*favourites*/
 .main-left {
 	width: 70%;
 	background-color: #0C1027;
 }
 
+/*favourites*/
 .favourites {
 	width: 100%;
 	padding: 1rem 0rem;
 	text-align: center;
+	position: relative;
 }
 
+.center{
+	width: 100%;
+	z-index: 2;
+	box-shadow: inset 0em 3em 5px 0px white;
+}
 
-.center {
-	width: 75%;
-	opacity: 1;
+.center img{
+	width: 100%;
+}
+
+.left{
+	margin-right: -10%;
+	width: 40%;
 	z-index: 1;
-	box-shadow: 0px 11px 8px -10px #CCC, 0px -11px 8px -10px #0C1027;
 }
 
-.left {
-	width: 30%;
-	z-index: 0;
-	margin-right: -20%;
+.left img{
+	max-width: 100%;
+	width: 100%;
 }
 
-.right {
-	width: 30%;
-	z-index: 0;
-	margin-left: -20%;
+.right{
+	margin-left: -10%;
+	width: 40%;
+	z-index: 1;
+}
+
+.right img{
+	max-width: 100%;
+	width: 100%;
 }
 
 /*Latest Releases*/
 .release-card {
 	min-width: 45%;
-	width: 45%;
+	width: 48%;
 	margin: 0.5rem;
 }
 
@@ -603,7 +616,15 @@ similar-card {
 	}
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
+	.latest-release{
+		flex-wrap: wrap;
+	}
+
+	.release-card{	
+		width: 100%;
+	}
+
 	body {
 		font-size: 15px;
 	}
