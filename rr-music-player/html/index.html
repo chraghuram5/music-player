@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" href="../style-sheets/style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<!-- Navigation Bar -->
+	<nav>
+		<div class="inner-nav flex-row flex-align-center flex-justify-space">
+			<!-- Navigation Left -->
+			<div class="flex-row flex-align-center flex-jusitfy-space">
+				<!-- Logo -->
+				<div class="left-margin-half">
+					<i class="fab fa-soundcloud logo-size"></i>
+				</div>
+
+				<!-- Title -->
+				<div class="section-title main-title">
+					RR <br /> Studio
+				</div>
+			</div>
+
+			<!-- Navigation Center -->
+			<div class="center-align">
+				<div class="section-title">Favorites</div>
+			</div>
+
+			<!-- Navigation Right -->
+			<div class="flex-row flex-align-center flex-justify-space right-align">
+
+				<!-- Search Box -->
+				<div class="search-box flex-row flex-align-center flex-justify-space">
+					<i class="fas fa-search"></i> <input type="text" placeholder="Search" /> <i
+						class="fas fa-microphone"></i>
+				</div>
+
+				<!-- Notification-icon -->
+				<div class="bell-icon align middle-align">
+					<i class="fas fa-bell"></i>
+				</div>
+
+				<!-- Profile -->
+				<div class="profile left-margin-half align">
+					<img src="../images/eminem.jpg">
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Main-Content -->
+	<div class="main-content">
+
+		<!-- Left Content-->
+		<main class="main-alignment main-left">
+
+			<!-- Favourites -->
+			<div class="section">
+				<div class="favourites flex-row flex-align-center">
+					<div class="left"><img src="../images/one-more-night.png"></div>
+					<div class="center"><img src="https://i.imgur.com/4GfUZEj.jpg"></div>
+					<div class="right"><img src="../images/sunflower.png"></div>
+				</div>
+			</div>
+
+			<!-- Latest Releases -->
+			<div class="section">
+				<div class="flex-row flex-align-center flex-justify-space">
+					<div class="section-title">Latest Releases</div>
+					<div class="name-font">SEE ALL</div>
+				</div>
+				<div class="inner-section flex-row flex-justify-space latest-release">
+					<div class="release-card flex-row flex-justify-space">
+						<div class="card-image">
+							<img src="../images/sunflower.png">
+						</div>
+						<div class="card-details flex-row flex-justify-space">
+							<div>
+								<div>
+									<br>
+								</div>
+								<div class="name-font">Sunflower</div>
+								<div class="table-left date-font">SEP 11, 2019</div>
+							</div>
+							<div>
+								<div class="time-font" style="text-align: right;">
+									<i class="fas fa-ellipsis-h"></i>
+								</div>
+								<div class="time-font">5:44</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="release-card flex-row flex-justify-space">
+						<div class="card-image">
+							<img src="../images/middle.png">
+						</div>
+						<div class="card-details flex-row flex-justify-space">
+							<div>
+								<div>
+									<br>
+								</div>
+								<div class="name-font">Middle</div>
+								<div class="table-left date-font">AUG 11, 2017</div>
+							</div>
+							<div>
+								<div class="time-font" style="text-align: right;">
+									<i class="fas fa-ellipsis-h"></i>
+								</div>
+								<div class="time-font">4:00</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="inner-section flex-row flex-justify-space latest-release">
+					<div class="release-card flex-row flex-justify-space">
+						<div class="card-image">
+							<img src="../images/one-more-night.png">
+						</div>
+						<div class="card-details flex-row flex-justify-space">
+							<div>
+								<div>
+									<br>
+								</div>
+								<div class="name-font">One More Night</div>
+								<div class="table-left date-font">NOV 27, 2016</div>
+							</div>
+							<div>
+								<div class="time-font" style="text-align: right;">
+									<i class="fas fa-ellipsis-h"></i>
+								</div>
+								<div class="time-font">5:44</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="release-card flex-row flex-justify-space">
+						<div class="card-image">
+							<img src="../images/dusk-till-dawn.jpg">
+						</div>
+						<div class="card-details flex-row flex-justify-space">
+							<div>
+								<div>
+									<br>
+								</div>
+								<div class="name-font">Dusk Till Dawn</div>
+								<div class="table-left date-font">AUG 21, 2019</div>
+							</div>
+							<div>
+								<div class="time-font" style="text-align: right;">
+									<i class="fas fa-ellipsis-h"></i>
+								</div>
+								<div class="time-font">4:00</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Popular Artists -->
+			<div class="section">
+				<div class="flex-row flex-align-center flex-justify-space">
+					<div class="section-title">Popular Artists</div>
+					<div class="name-font">SEE ALL</div>
+				</div>
+				<div class="inner-section flex-row flex-justify-space">
+					<div class="artist">
+						<img src="../images/eminem.jpg">
+						<div class="name-font">Eminem</div>
+					</div>
+					<div class="artist">
+						<img src="../images/chainsmokers.jpg">
+						<div class="name-font">ChainSmokers</div>
+					</div>
+					<div class="artist">
+						<img src="../images/imagine-dragons.jpg">
+						<div class="name-font">Imagine Dragons</div>
+					</div>
+					<div class="artist">
+						<img src="../images/selena-gomez.jpg">
+						<div class="name-font">Selena Gomez</div>
+					</div>
+					<div class="artist">
+						<img src="../images/taylor-swift.jpg">
+						<div class="name-font">Taylor Swift</div>
+					</div>
+					<div class="artist">
+						<img src="../images/one-more-night.png">
+						<div class="name-font">Maroon 5</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- stations -->
+			<div class="section">
+				<div class="stations-section">
+					<div class="station-list inner-section flex-row flex-justify-space">
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<div class="orange flex-col flex-align-center flex-justify-center">
+								<i class="fab fa-soundcloud logo-size"></i>
+								<div class="name-font">Stations</div>
+							</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/workout.jpg">
+							<div class="center-text name-font">WorkOut</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/pop.jpg">
+							<div class="center-text name-font">Pop</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/retro.jpg">
+							<div class="center-text name-font">Retro</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/workout.jpg">
+							<div class="center-text name-font">Rock</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/chill.jpg">
+							<div class="center-text name-font">Chill</div>
+						</div>
+						<div class="station flex-row flex-align-center flex-justify-center">
+							<img src="../images/love.jpg">
+							<div class="center-text name-font">Love</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- mood list -->
+			<div class="section">
+				<div class="margin-half inner-section flex-row flex-justify-space">
+					<div class="mood">
+						<img src="../images/party.jpg">
+						<div class="center-text name-font">Party</div>
+					</div>
+					<div class="mood">
+						<img src="../images/electronic.jpg">
+						<div class="center-text name-font">Electronic</div>
+					</div>
+					<div class="mood">
+						<img src="../images/roadtrip.jpg">
+						<div class="center-text name-font">RoadTrip</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Latest English -->
+			<div class="section">
+				<div class="flex-row flex-align-center flex-justify-space">
+					<div class="section-title">Latest English</div>
+					<div class="name-font">SEE ALL</div>
+				</div>
+				<div class="inner-section flex-row flex-justify-space margin-half">
+					<div class="song margin-half">
+						<img src="../images/closer.png">
+						<div class="song-name-font">Closer</div>
+						<div class="song-date-font">AUG 11, 2017</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/sunflower.png">
+						<div class="song-name-font">Sunflower</div>
+						<div class="song-date-font">SEPT 21, 2018</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/dusk-till-dawn.jpg">
+						<div class="song-name-font">Dusk Till Dawn</div>
+						<div class="song-date-font">APR 21, 2019</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/one-more-night.png">
+						<div class="song-name-font">One More Night</div>
+						<div class="song-date-font">OCT 01, 2016</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/black-beatles.jpg">
+						<div class="song-name-font">Black Beatles</div>
+						<div class="song-date-font">AUG 11, 2018</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/middle.png">
+						<div class="song-name-font">Middle</div>
+						<div class="song-date-font">JAN 11, 2017</div>
+					</div>
+				</div>
+			</div>
+
+			<!--Latest Hindi-->
+			<div class="section">
+				<div class="flex-row flex-align-center flex-justify-space">
+					<div class="section-title">Latest Hindi</div>
+					<div class="name-font">SEE ALL</div>
+				</div>
+				<div class="inner-section flex-row flex-justify-space margin-half">
+					<div class="song margin-half">
+						<img src="../images/closer.png">
+						<div class="song-name-font">Closer</div>
+						<div class="song-date-font">AUG 11, 2017</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/sunflower.png">
+						<div class="song-name-font">Sunflower</div>
+						<div class="song-date-font">SEPT 21, 2018</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/dusk-till-dawn.jpg">
+						<div class="song-name-font">Dusk Till Dawn</div>
+						<div class="song-date-font">APR 21, 2019</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/one-more-night.png">
+						<div class="song-name-font">One More Night</div>
+						<div class="song-date-font">OCT 01, 2016</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/black-beatles.jpg">
+						<div class="song-name-font">Black Beatles</div>
+						<div class="song-date-font">AUG 11, 2018</div>
+					</div>
+					<div class="song margin-half">
+						<img src="../images/middle.png">
+						<div class="song-name-font">Middle</div>
+						<div class="song-date-font">JAN 11, 2017</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- Right Content -->
+		<aside class="main-alignment main-right">
+			<div class="queue">
+				<div class="flex-row flex-align-center flex-justify-space margin-half">
+					<div class="section-title">Queue</div>
+					<div>
+						<div class="dropdown">
+							<button class="dropbtn">Queue&emsp;&#709;</button>
+							<div class="dropdown-content time-font">
+								<a href="#">Playlists</a> <a href="#">Favourite Songs</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="queue-song inner-section flex-row flex-justify-space margin-half">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td class="name-font">01</td>
+								<td><img src="../images/closer.png"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name flex-row flex-align-center flex-justify-space">
+						<div class="name-font">
+							Closer
+							<div class="time-font">ChainSmokers</div>
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+				<div class="queue-song inner-section flex-row flex-justify-space margin-half">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td class="name-font">02</td>
+								<td><img src="../images/sunflower.png"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name flex-row flex-align-center flex-justify-space">
+						<div class="name-font">
+							Sunflower
+							<div class="time-font">Post Malone</div>
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+				<div class="queue-song inner-section flex-row flex-justify-space margin-half">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td class="name-font">03</td>
+								<td><img src="../images/one-more-night.png"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name flex-row flex-align-center flex-justify-space">
+						<div class="name-font">
+							One more night
+							<div class="time-font">Maroon 5</div>
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+				<div class="queue-song inner-section flex-row flex-justify-space margin-half">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td class="name-font">04</td>
+								<td><img src="../images/without-me.png"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name flex-row flex-align-center flex-justify-space">
+						<div class="name-font">
+							Without Me
+							<div class="time-font">Halsey</div>
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+				<div class="queue-song inner-section flex-row flex-justify-space margin-half">
+					<div class="align song-image">
+						<table>
+							<tr>
+								<td class="name-font">05</td>
+								<td><img src="../images/dusk-till-dawn.jpg"></td>
+							</tr>
+						</table>
+					</div>
+					<div class="align song-name flex-row flex-align-center flex-justify-space">
+						<div class="name-font">
+							Dusk Till Dawn
+							<div class="time-font">Sia</div>
+						</div>
+						<div>
+							<i class="far fa-heart"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<footer style="height: 10%;">
+		<div></div>
+	</footer>
+	<div class="controller">
+		<div class="inner-width inner-section flex-row flex-justify-space">
+			<div class="side-left flex-row flex-align-center flex-justify-space">
+				<div class="image">
+					<img src="../images/sunflower.png">
+				</div>
+				<div class="name-font controller-song">
+					Sunflower
+					<div class="time-font">Post Malone</div>
+				</div>
+				<div>
+					<i class="far fa-heart"></i>
+				</div>
+				<div>
+					<i class="fas fa-ban"></i>
+				</div>
+			</div>
+			<div class="middle">
+				<div class="middle-icons flex-row flex-align-center flex-justify-center">
+					<div class="queue-icon">
+						<i class="fas fa-volume-up"></i>
+					</div>
+					<i class="fas fa-random"></i> <i class="fas fa-step-backward"></i>
+					<i class="play far fa-pause-circle"></i> <i class="fas fa-step-forward"></i> <i
+						class="fas fa-redo"></i>
+					<div class="queue-icon">
+						<i class="fas fa-stream"></i>
+					</div>
+
+				</div>
+				<div class="slidecontainer">
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+			</div>
+			<div class="side-right flex-row flex-align-center flex-justify-center">
+				<div class="sound-icons flex-row flex-align-center flex-justify-center">
+					<i class="fas fa-stream"></i> <i class="fas fa-laptop"></i><i class="fas fa-volume-up"></i>
+				</div>
+				<div class="slidecontainer sound-controller">
+					<input type="range" min="1" max="100" value="50" class="slider">
+				</div>
+				<div>
+					<i class="fas fa-window-maximize"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
